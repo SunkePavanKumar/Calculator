@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator</title>
+    <meta
+      name="description"
+      content="This is the basic Calculator which perform addition, substraction, multiplication and division"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h3>Calculator</h3>
+    <div class="container">
+      <div class="display">
+        <input type="text" readonly />
+      </div>
+      <div class="keys">
+        <button onClick="display('C')">C</button>
+        <button onClick="display('+')">+</button>
+        <button onClick="display('-')">-</button>
+        <button onClick="display('/')">/</button>
+        <button onClick="display('*')">*</button>
+        <button onClick="display('1')">1</button>
+        <button onClick="display('2')">2</button>
+        <button onclick="display('3')">3</button>
+        <button onClick="display('4')">4</button>
+        <button onClick="display('5')">5</button>
+        <button onClick="display('6')">6</button>
+        <button onClick="display('7')">7</button>
+        <button onClick="display('8')">8</button>
+        <button onClick="display('9')">9</button>
+        <button onClick="display('0')">0</button>
+        <button onClick="display('=')">=</button>
+        <button onClick="display('&larr;')">&larr;</button>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
