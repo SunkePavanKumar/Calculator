@@ -7,15 +7,15 @@
 }
 .container {
   width: 344px;
-  min-width: 300px;
   background-color: gray;
   border-radius: 10px;
   border: 2px solid black;
   height: 400px;
-  position: relative;
+  /* position: relative;
   top: 50%;
   left: 36%;
   margin-top: 10px;
+ */
 }
 h3 {
   text-align: center;
@@ -50,4 +50,10 @@ h3 {
   height: 50px;
   border: 2px solid black;
   border-radius: 5px;
+}
+
+.outercontainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
