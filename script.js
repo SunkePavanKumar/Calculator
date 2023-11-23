@@ -16,8 +16,12 @@ function display(input) {
     display_input = "";
   } else if (input === "=") {
     try {
-      display_input = eval(display_input);
-      document.querySelector(".display input").value = display_input;
+      if (display_input.length === 0) {
+        document.querySelector(".display input").value = "";
+      } else {
+        display_input = eval(display_input);
+        document.querySelector(".display input").value = display_input;
+      }
     } catch (err) {
       document.querySelector(".display input").value = "ERROR";
     }
